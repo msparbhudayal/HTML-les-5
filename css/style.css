@@ -1,0 +1,45 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    --background-color: lightgrey;
+    --heading-color: maroon; 
+}
+
+.first {
+    color: red;
+}
+
+.second {
+    color: white;
+    background-color: grey;
+}
+
+.third {
+    color: blue;
+}
+
+#first {
+    color: green;
+}
+
+img {
+    height: 10px;
+    width: 10px;
+}
+
+h1 {
+    --heading-color: maroon;
+}
+
+h2 {
+    --heading-color:var(--heading-color)
+}
+
+article {
+    border: black;
+    margin: 5px;
+    padding: 10px;
+}
+
